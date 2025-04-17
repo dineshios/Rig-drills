@@ -1,0 +1,6 @@
+framework module Pods_Rig_drillsTests {
+  umbrella header "Pods-Rig drillsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

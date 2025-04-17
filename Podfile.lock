@@ -1,0 +1,57 @@
+PODS:
+  - AppAuth (1.7.6):
+    - AppAuth/Core (= 1.7.6)
+    - AppAuth/ExternalUserAgent (= 1.7.6)
+  - AppAuth/Core (1.7.6)
+  - AppAuth/ExternalUserAgent (1.7.6):
+    - AppAuth/Core
+  - GoogleAPIClientForREST/Core (2.0.1):
+    - GTMSessionFetcher/Full (< 3.0, >= 1.6.1)
+  - GoogleAPIClientForREST/PeopleService (2.0.1):
+    - GoogleAPIClientForREST/Core
+    - GTMSessionFetcher/Full (< 3.0, >= 1.6.1)
+  - GoogleSignIn (6.2.4):
+    - AppAuth (~> 1.5)
+    - GTMAppAuth (~> 1.3)
+    - GTMSessionFetcher/Core (< 3.0, >= 1.1)
+  - GoogleSignInSwift (0.2.0)
+  - GoogleSignInSwiftSupport (6.2.4):
+    - GoogleSignIn (~> 6.2)
+  - GTMAppAuth (1.3.1):
+    - AppAuth/Core (~> 1.6)
+    - GTMSessionFetcher/Core (< 3.0, >= 1.5)
+  - GTMSessionFetcher (2.3.0):
+    - GTMSessionFetcher/Full (= 2.3.0)
+  - GTMSessionFetcher/Core (2.3.0)
+  - GTMSessionFetcher/Full (2.3.0):
+    - GTMSessionFetcher/Core
+
+DEPENDENCIES:
+  - GoogleAPIClientForREST/PeopleService
+  - GoogleSignIn
+  - GoogleSignInSwift
+  - GoogleSignInSwiftSupport
+  - GTMSessionFetcher
+
+SPEC REPOS:
+  trunk:
+    - AppAuth
+    - GoogleAPIClientForREST
+    - GoogleSignIn
+    - GoogleSignInSwift
+    - GoogleSignInSwiftSupport
+    - GTMAppAuth
+    - GTMSessionFetcher
+
+SPEC CHECKSUMS:
+  AppAuth: d4f13a8fe0baf391b2108511793e4b479691fb73
+  GoogleAPIClientForREST: 1c2743c7ed11d190f69617e1caa4f0cce24ea62e
+  GoogleSignIn: 5651ce3a61e56ca864160e79b484cd9ed3f49b7a
+  GoogleSignInSwift: c9f78b7af65e1bc4b6307450ca2a151d4aa47c62
+  GoogleSignInSwiftSupport: 565fa830a18d4d26d78c7a7c77be096fea7cf22b
+  GTMAppAuth: 0ff230db599948a9ad7470ca667337803b3fc4dd
+  GTMSessionFetcher: 3a63d75eecd6aa32c2fc79f578064e1214dfdec2
+
+PODFILE CHECKSUM: 5f98a2e065e25a1cc8a7410130868a7b2fcd570f
+
+COCOAPODS: 1.16.2
